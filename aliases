@@ -3,7 +3,7 @@
         b = branch -v
         ba = branch -va
         plog = log --graph --date=short --branches --pretty=format:'%C(yellow)%h%C(reset) %ad | %C(75)%s%C(reset) %C(yellow)%d%C(reset) [%an]'
-        alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+        alias = ! git config --get-regexp ^alias\. | sed -e s/^alias\.// -e s/\ /\:\\ /
         dti = ! git branch | egrep '(issue-)' -i | xargs git branch -d
         dtf = ! git branch | egrep '(feature-)' -i | xargs git branch -d
         last = log -1 HEAD
