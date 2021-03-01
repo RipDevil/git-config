@@ -1,4 +1,4 @@
-# RipDevil's git config
+## RipDevil's git config
 
 ### Quick edit
 
