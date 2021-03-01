@@ -1,6 +1,12 @@
 # RipDevil's git config
 
-## Aliases
+### Quick edit
+
+```bash
+git config --global --edit
+```
+
+### Aliases
 
 ```co``` - makes a simple checkout
 
