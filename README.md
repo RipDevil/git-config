@@ -23,3 +23,5 @@ git config --global --edit
 ```dtf``` - makes a soft deletion of ```feature-*``` named branches
 
 ```last``` - shows last commit on a current branch 
+
+```me``` - shows current commit's name 
