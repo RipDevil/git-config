@@ -1,0 +1,17 @@
+# RipDevil's git config to rule the world!
+#
+
+
+[user]
+        name = <YOUR NAME>
+        email = <YOUR EMAIL>
+[alias]
+        cfg = config edit --global
+        slog = log --oneline
+        co = checkout
+        b = branch -v
+        ba = branch -va
+        last = log -1 HEAD
+        me = rev-parse --abbrev-ref HEAD
+[core]
+        pager = 
