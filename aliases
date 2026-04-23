@@ -1,9 +1,0 @@
-[alias]
-        cedit = config --global --edit
-        slog = log --oneline
-        co = checkout
-        b = branch -v
-        ba = branch -va
-        last = log -1 HEAD
-        me = rev-parse --abbrev-ref HEAD
-        dta = ! git branch | egrep '(task/)' -i | xargs git branch -d
